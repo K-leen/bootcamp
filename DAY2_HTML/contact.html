@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact | My Contact</title>
+
+</head>
+<body>
+   <header>
+        <!--Logo-->
+        <h2>RKN</h2>
+        <!--navigation menu-->
+        <!-- <h1>Get Me</h1> -->
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="portfolio.html">Portfolio</a>
+            <a href="blog.html">Blog</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>  
+    <fieldset>
+        <legend>Enter Details to Contact Us</legend>
+    <form action="#" method="post">
+        <label for="name">First Name</label>
+        <input type="text" name="first_name" id="firstname"><br>
+        <lable fo="seccondname">Second Name</lable>
+        <input type="text" name="Second_Name" id="secondname"><br>
+        <label for="gender">Gender</label>
+        <input type="radio" name="gender" id="gender" value="Male">Male
+        <input type="radio" name="gender" id="gender" value="Female">Female
+        <input type="radio" name="gender" id="gender" value="Other">Other <br>
+        <label for="email">Email</label> 
+        <input type="email " name="email" id="email" placeholder="you@example.com"><br>
+        <label for="D.O.B">D.O.B</label>
+        <INPUT type="date" name="D.O.B" id="D.O.B"><br>
+        <label for="message">Enter Message</label> 
+        <textarea name="message" id="message" rows="4" placeholder=" Enter Your Message"></textarea><br>
+        <!-- <input type="radio" name="contact_method" value="phone"> -->
+        <label for="contact method">Prefered Contact Method</label>
+        <select name="contactmethod" id="contactmethod">
+            <option value="email">Email</option>
+            <option value="phone">Phone</option>
+        </select>
+       <br><button type="submit">Submit</button>
+        </fieldset>
+
+    </form>
+    
+</body>
+</html>
